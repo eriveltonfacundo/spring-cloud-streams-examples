@@ -1,6 +1,6 @@
-package com.example.springcloudstreamsexamples.config;
+package com.example.cloud.streams.config;
 
-import com.example.springcloudstreamsexamples.streams.GreetingsStreams;
+import com.example.cloud.streams.streams.GreetingsStreams;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 
 @EnableBinding(GreetingsStreams.class)

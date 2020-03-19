@@ -1,4 +1,4 @@
-package com.example.springcloudstreamsexamples;
+package com.example.cloud.streams;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

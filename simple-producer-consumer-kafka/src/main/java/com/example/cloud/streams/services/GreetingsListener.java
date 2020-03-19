@@ -1,7 +1,7 @@
-package com.example.springcloudstreamsexamples.services;
+package com.example.cloud.streams.services;
 
-import com.example.springcloudstreamsexamples.models.Greetings;
-import com.example.springcloudstreamsexamples.streams.GreetingsStreams;
+import com.example.cloud.streams.streams.GreetingsStreams;
+import com.example.cloud.streams.models.Greetings;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.messaging.handler.annotation.Payload;

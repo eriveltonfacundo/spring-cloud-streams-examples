@@ -1,4 +1,4 @@
-package com.example.springcloudstreamsexamples.models;
+package com.example.cloud.streams.models;
 
 import lombok.Builder;
 import lombok.Getter;

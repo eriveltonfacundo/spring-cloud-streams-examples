@@ -1,7 +1,7 @@
-package com.example.springcloudstreamsexamples.web;
+package com.example.cloud.streams.web;
 
-import com.example.springcloudstreamsexamples.models.Greetings;
-import com.example.springcloudstreamsexamples.services.GreetingsService;
+import com.example.cloud.streams.models.Greetings;
+import com.example.cloud.streams.services.GreetingsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
