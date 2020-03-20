@@ -1,0 +1,14 @@
+{
+	"type": "record",
+	"name": "EmployeeKey",
+	"namespace": "com.example.cloud.streams.schema",
+	"fields": [
+	 {
+		"name": "id",
+		"type": "long"
+	},
+	{
+		"name": "departmentName",
+		"type": "string"
+	}]
+}

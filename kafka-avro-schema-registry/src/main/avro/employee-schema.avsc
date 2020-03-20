@@ -1,0 +1,29 @@
+{
+	"type": "record",
+	"name": "Employee",
+	"namespace": "com.example.cloud.streams.schema",
+	"fields": [
+	{
+		"name": "id",
+		"type": "long"
+	},
+	{
+		"name": "firstName",
+		"type": "string"
+	},
+	{
+		"name": "lastName",
+		"type": "string"
+	},
+	{
+		"name": "department",
+		"type": "string",
+		 "default": "IT"
+	},
+	{
+		"name": "designation",
+		"type": "string",
+		 "default": "Software Engineer"
+	}
+	]
+}
